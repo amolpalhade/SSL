@@ -1,0 +1,6 @@
+To install and set up the GIT
+1)Download the GIT from " https://git-scm.com/download/win "
+2)Install the EXE file
+3)Create a folder called "Sahara_Samay_Live_app"
+4)Go to cmd and navigate to the path of Sahara_Samay_Live_app and execute the command "git init"
+	You will get the message " Initialized empty Git repository in /Users/Sahara_Samay_live_apps/Desktop/myproject/.git/ "  
