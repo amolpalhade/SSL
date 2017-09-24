@@ -4,3 +4,15 @@ To install and set up the GIT
 3)Create a folder called "Sahara_Samay_Live_app"
 4)Go to cmd and navigate to the path of Sahara_Samay_Live_app and execute the command "git init"
 	You will get the message " Initialized empty Git repository in /Users/Sahara_Samay_live_apps/Desktop/myproject/.git/ "  
+5) Add a new file to the repo
+	Create a file for eg:-  "test1.txt" and write something into it and save it
+6)Use the command "git status"	-> to check the number of file changed in local repo
+7)Add that file using commang "git add file-name"
+7)Use the command "git commit -m 'write any commit message'"
+8)You can create a new branch by using the command "git checkout -b branchName"
+9)Now sync the remort repo to local repo. So inorder to do that use the following command
+	"git remort add origin https://github.com/amolpalhade/SSL.git"
+10)Then push the changes which is present in your local repo "git push -u origin master"
+11)Now push your branch code using "git push origin branchName"
+
+12) Refer the further instruction from Site :- " http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners " 
